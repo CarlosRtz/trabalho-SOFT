@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "64a4dc8d5964a162e7a33303"
+  },
+  "codh": 1,
+  "cpf": "00011100011",
+  "pnome": "Nome1",
+  "unome": "Sobrenome1",
+  "cidade": "Cidade1",
+  "endereco": "Endereco1",
+  "telefone": "Telefone1",
+  "reservas": [
+    {
+      "codr": 1,
+      "data_r": {
+        "$date": "2023-07-07T00:00:00.000Z"
+      },
+      "check_in": {
+        "$date": "2023-07-07T00:00:00.000Z"
+      },
+      "check_out": {
+        "$date": "2023-07-10T00:00:00.000Z"
+      },
+      "desconto": 10,
+      "status": "CONFIRMADO",
+      "quartos": [
+        1
+      ],
+      "consumo": [
+        ""
+      ]
+    },
+    {
+      "codr": 2,
+      "data_r": {
+        "$date": "2023-07-09T00:00:00.000Z"
+      },
+      "check_in": {
+        "$date": "2023-07-22T00:00:00.000Z"
+      },
+      "check_out": {
+        "$date": "2023-07-25T00:00:00.000Z"
+      },
+      "desconto": 0,
+      "status": "PENDENTE",
+      "quartos": [
+        ""
+      ],
+      "consumo": [
+        ""
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64a4dce95964a162e7a33304"
+  },
+  "codh": 2,
+  "cpf": "11100011100",
+  "pnome": "Nome2",
+  "unome": "Sobrenome2",
+  "cidade": "Cidade2",
+  "endereco": "Endereco2",
+  "telefone": "Telefone2",
+  "reservas": []
+},
+{
+  "_id": {
+    "$oid": "64a4dd315964a162e7a33305"
+  },
+  "codh": 3,
+  "cpf": "01011100011",
+  "pnome": "Nome3",
+  "cidade": "Cidade3",
+  "endereco": "Endereco3",
+  "telefone": "Telefone3",
+  "reservas": [
+    {
+      "codr": 3,
+      "data_r": {
+        "$date": "2023-07-06T03:00:00.000Z"
+      },
+      "check_in": {
+        "$date": "2023-07-16T00:00:00.000Z"
+      },
+      "check_out": {
+        "$date": "2023-07-20T00:00:00.000Z"
+      },
+      "desconto": 0,
+      "status": "CANCELADO",
+      "quartos": [
+        ""
+      ],
+      "consumo": [
+        ""
+      ]
+    }
+  ],
+  "unome": "Sobrenome3"
+}]

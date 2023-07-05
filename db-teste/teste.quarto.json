@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "64a576d62ad81fbe29e33be0"
+  },
+  "codq": 1,
+  "tipo": "SOLTEIRO",
+  "valor": 75,
+  "banheiras": 0,
+  "camas": 1,
+  "descricao": "",
+  "frigobar": {
+    "codf": 1,
+    "itens": []
+  }
+},
+{
+  "_id": {
+    "$oid": "64a577552ad81fbe29e33be3"
+  },
+  "codq": 2,
+  "tipo": "CASAL",
+  "valor": 100,
+  "banheiras": 1,
+  "camas": 1,
+  "descricao": "",
+  "frigobar": {
+    "codf": 2,
+    "itens": []
+  }
+},
+{
+  "_id": {
+    "$oid": "64a577ad2ad81fbe29e33be4"
+  },
+  "codq": 3,
+  "tipo": "FAMILIA",
+  "valor": 125,
+  "banheiras": 1,
+  "camas": 3,
+  "descricao": "",
+  "frigobar": {
+    "codf": 3,
+    "itens": []
+  }
+}]
